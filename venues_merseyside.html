@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--  SETTING THE CHARACTER SET -->
 <meta charset="UTF-8">
-<!-- SETTING THE CONTENT OF THE PAGE TO BE RESPONSIVE TO DEVICE WIDTH (MOBILE FIRST) -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-<!--  SETUP META DATA FOR THIS PAGE -->
 <meta name="keywords" content="WEDDING,PLANNER,PLAN,ASSIGNMENT,">
 <meta name="author" content="Hasib Ahmed">
 <title> Merseyside Venues </title>
-<!--  INCLUDE OUR CSS STYLE SHEETS, USING W3 CSS, GOOGLE APIS AND FONTAWESOME -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -21,8 +17,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
 </head>
 <body>
-<!--NAVBAR-->
-<!-- NAVBAR on big screens-->
 <div class="w3-top">
         <div class="w3-bar w3-dark-grey" id="myNavbar">
           <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" 
@@ -41,7 +35,6 @@
           </div>
         </div>
        </div>
-        <!-- Navbar on small screens -->
         <div id="navSmall" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium">
           <a href="#team" class="w3-bar-item w3-button">Team</a>
           <a href="#work" class="w3-bar-item w3-button">Work</a>
@@ -53,7 +46,6 @@
       </div>
 </head>
 <body>
-<!-- First Parallax Image For -->
 <div class="bgimg-5 w3-display-container w3-opacity-min" id="home">
 		<div class="w3-display-middle" style="white-space: nowrap;">
 			<span
@@ -61,8 +53,6 @@
 				Venues</span>
 		</div>
 	</div>
-	<!-- use prepared statements to fetch data, code used as placeholders -->
-	<!-- venue container (to be copied for other venue location and venues) -->
 	<div class="w3-container w3-half">
 		<div class="w3-display-container">
 
@@ -94,7 +84,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- end of venue (1) container -->
 	<div class="w3-container w3-half">
 		<div class="w3-display-container">
 
@@ -116,7 +105,6 @@
 		</div>
 
 	</div>
-	<!-- end of venue (2) container -->
 	<div class="w3-container w3-half">
 		<div class="w3-display-container">
 
@@ -138,7 +126,6 @@
 		</div>
 
 	</div>
-	<!-- end of venue (3) container -->
 	<div class="w3-container w3-half">
 		<div class="w3-display-container">
 
@@ -160,7 +147,6 @@
 		</div>
 
 	</div>
-	<!-- end of venue (4) container -->
 	<div class="w3-container w3-half">
 		<div class="w3-display-container">
 
@@ -181,8 +167,6 @@
 		</div>
 
 	</div>
-    <!-- end of venue (5) container -->
-    <!-- start of venue (6) container -->
 	<div class="w3-container w3-half">
 		<div class="w3-display-container">
 
@@ -201,10 +185,8 @@
                             <p> <b>Catering Options Available:</b> 4 <i class="fa fa-star"></i></p>
 			</div>
         </div>
-        <!-- end of venue (6) container -->
 	</div>
 <script>
-        //Used to toggle the menu on small screens when clicking on the menu button
         function toggleFunction() {
             var x = document.getElementById("navSmall");
             if (x.className.indexOf("w3-show") == -1) {
